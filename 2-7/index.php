@@ -82,7 +82,7 @@ var_dump($color);echo "<br>";echo "<br>";
 ?>
 
 <?php
-echo "IT用語";echo "<br>";
+echo "IT用語";echo "<br>";echo "<br>";
 echo "プルリクエスト（マージリクエスト）";
 echo "<br>";
 echo "プルリクエストとは、GitHub等で使われる機能（サービス）の名称。";
@@ -92,6 +92,15 @@ echo "<br>";echo "<br>";
 ?>
 
 <?php
-echo " Git Flow";echo "<br>";
-echo "";
+echo "Git Flow";echo "<br>";
+echo "Git Flowとは、チームで Git を使う際に役立つ、運用ルールをまとめたツール（プラグイン）である。";echo "<br>";
+echo "Git Flowを使う事でチームメンバーがルールに沿った開発をする事でチームの混乱の低減等のメリットがある。";
+echo "<br>";echo "<br>";
+?>
+
+<?php
+echo "CRON";echo "<br>";
+echo "CRON(クーロン)とは、UNIX系システム(Unix OS、Linux OS)の機能のひとつである。";echo "<br>";
+echo "事前に日時等の指定をする事で、指定した時間に指定したプログラム等を自動で実行させる事が可能。";
+echo "<br>";echo "<br>";
 ?>
