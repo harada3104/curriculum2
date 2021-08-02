@@ -1,0 +1,32 @@
+@media screen and (max-width: 767px) {
+  #wraooer {
+    width: 350px;
+  }
+  header {
+    width: 250px;
+  }
+  .center-light {
+    width: 100px;
+  }
+  footer {
+    width: 250px;
+  }
+}
+
+
+@media screen and (max-width: 479px) {
+  header {
+    width: 150px;
+  }
+  .center-left {
+    float: none;
+  }
+  .center-light {
+    width: 150px;
+    float: none;
+  }
+  footer {
+    width: 150px;
+  }
+
+}
