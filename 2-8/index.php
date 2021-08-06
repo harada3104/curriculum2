@@ -23,7 +23,7 @@ $fruits = ["apple" =>"りんご", "orange" => "みかん", "peach" => "もも"];
 foreach ($fruits as $key => $value) {
   echo $key;
   echo $value;
-} echo "<br>";echo "<br>";
+} echo "<br><br>";
 ?>
 
 <?php
@@ -32,36 +32,37 @@ $fruits = ["apple" =>"りんご", "orange" => "みかん", "peach" => "もも"];
 foreach ($fruits as $key => $value) {
   var_dump ($key);
   var_dump ($value);
-} echo "<br>";echo "<br>";
+} echo "<br><br>";
 ?>
 
 
 <!-- 課題 -->
 <?php
-$fruits = ["apple" =>"といったらりんご", "orange" => "といったらみかん", "peach" => "といったらもも"];
+$fruits = ["apple" =>"りんご", "orange" => "みかん", "peach" => "もも"];
+$a = "といったら";
 
 foreach ($fruits as $key => $value) {
   echo $key;
-  echo $value;echo "<br>";
-} echo "<br>";echo "<br>";
+  echo $a,$value;echo "<br>";
+} echo "<br><br>";
 ?>
 
 
 <?php
   echo "IT用語";
-  echo "<br>";echo "<br>";
+  echo "<br><br>";
 
   echo "トランザクション";  echo "<br>";
   echo "トランザクションとは結果の整合性が要求される、複数の処理を1つにまとめたもの。";  echo "<br>";
   echo "トランザクションを実行した結果は成功か失敗のいずれかしかない。";echo "<br>";
   echo "失敗の場合は実行前に戻る。";
-  echo "<br>";echo "<br>";
+  echo "<br><br>";
 ?>
 
 <?php
   echo "排他ロック";  echo "<br>";
   echo "排他ロックとは複数人が同時にアクセスし変更を加える事でトラブルが起きるような物に対して、一人がアクセスする際、他者が介入できないようロックをかける事。"; 
-  echo "<br>";echo "<br>";
+  echo "<br><br>";
 ?>
 
 <?php
