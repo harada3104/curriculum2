@@ -1,0 +1,29 @@
+#space 
+{
+  width: 1250px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: gray;
+}
+
+.h1 
+{
+  text-align: center;
+}
+
+h1 
+{
+  padding-top: 100px;
+  color: white;
+  border: solid 4px white;
+}
+
+form
+{
+  text-align: center;
+  padding-top: 40px;
+}
+
+h2 { color: white;}
+
+.p {text-align: center;}
